@@ -1,12 +1,15 @@
 Интернет-магазин по заказу пиццы - **React Pizza**
 
+
+### `npm install`
 ### `npm start`
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-
-### `$ yarn fake-server`
+### `npm run fake-server`
 В файле  package.json в scripts "fake-server": "npx json-server --watch public/db.json --port=3001"
 
+
+Heroku — облачная PaaS-платформа
+https://react-pizza-foreverilone-app.herokuapp.com/
 
 
 **Stack:**
