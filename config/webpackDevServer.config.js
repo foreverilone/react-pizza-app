@@ -34,6 +34,9 @@ module.exports = function (proxy, allowedHost) {
     // really know what you're doing with a special environment variable.
     disableHostCheck:
       !proxy || process.env.DANGEROUSLY_DISABLE_HOST_CHECK === 'true',
+    allowedHosts: [
+      '.herokuapp.com'
+    ]
     // Enable gzip compression of generated files.
     compress: true,
     // Silence WebpackDevServer's own logs since they're generally not useful.
