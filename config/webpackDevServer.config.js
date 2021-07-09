@@ -1,4 +1,4 @@
-'use strict';
+
 
 const fs = require('fs');
 const errorOverlayMiddleware = require('react-dev-utils/errorOverlayMiddleware');
@@ -36,7 +36,7 @@ module.exports = function (proxy, allowedHost) {
       !proxy || process.env.DANGEROUSLY_DISABLE_HOST_CHECK === 'true',
     allowedHosts: [
       '.herokuapp.com'
-    ]
+    ],
     // Enable gzip compression of generated files.
     compress: true,
     // Silence WebpackDevServer's own logs since they're generally not useful.
