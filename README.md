@@ -1,3 +1,5 @@
+Интернет-магазин по заказу пиццы - **React Pizza**
+
 ### `npm start`
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -7,13 +9,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 
+**Stack:**
 
-Stack:
-
-ReactJS + хуки
-React Router
-Redux
-Redux thunk
-json-server
-Axios
-classnames
+- ReactJS + хуки
+- React Router
+- Redux
+- Redux thunk
+- json-server
+- Axios
+- classnames
